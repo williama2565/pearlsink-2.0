@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pearls Ink | Chicano Traditional Tattooing</title>
+
+<!-- Old English Font -->
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --cream: #e8e1d4;
+  --black: #0d0d0d;
+  --red: #6e1414;
+  --gold: #b89b4f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'UnifrakturCook', cursive;
+  background-color: var(--black);
+  color: var(--cream);
+  line-height: 1.6;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+}
+
+header {
+  background: rgba(0,0,0,0.95);
+  color: var(--cream);
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 4px solid var(--gold);
+}
+
+header h1 {
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+}
+
+header p {
+  margin-top: 10px;
+  color: var(--gold);
+  font-size: 1.2rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--cream);
+  margin: 0 15px;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: var(--red);
+}
+
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
+  url('https://images.unsplash.com/photo-1617814087054-2b3e1b1e5c8f') center/cover;
+  border-bottom: 4px solid var(--gold);
+}
+
+.hero h2 {
+  font-size: 3rem;
+  color: var(--gold);
+}
+
+.hero p {
+  margin-top: 1.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 12px 30px;
+  border: 2px solid var(--gold);
+  color: var(--gold);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--gold);
+  color: var(--black);
+}
+
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+  border-bottom: 2px solid #222;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: var(--red);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border: 3px solid var(--gold);
+  transition: 0.3s;
+  filter: grayscale(100%) contrast(120%);
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+  border-color: var(--red);
+}
+
+footer {
+  background: #000;
+  color: var(--cream);
+  text-align: center;
+  padding: 2rem;
+  border-top: 4px solid var(--gold);
+}
+
+footer p {
+  font-size: 1rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>PEARLS INK</h1>
+  <p>Chicano Traditional • Love & Loyalty • Old School Ink</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Low & Slow • Ink & Soul</h2>
+  <p>Classic Chicano inspired art. Lowriders, loyalty, heartbreak, faith, and old school tradition. Every line tells a story.</p>
+  <a href="#gallery" class="btn">View My Work</a>
+</section>
+
+<section id="about">
+  <h2>About The Artist</h2>
+  <p>
+    Pearls Ink represents Chicano Traditional Tattooing rooted in culture,
+    loyalty, faith, and street heritage. Inspired by lowrider lifestyle,
+    prison art symbolism, vintage romance, and classic American C10 trucks.
+    Every piece reflects soul, struggle, love, and timeless ink tradition.
+  </p>
+</section>
+
+<section id="gallery">
+  <h2>Featured Work</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Tattoo Art 1">
+    <img src="https://images.unsplash.com/photo-1581382575275-97901c2635b7" alt="Tattoo Art 2">
+    <img src="https://images.unsplash.com/photo-1559589689-577aabd1a32a" alt="C10 Chevy Truck">
+  </div>
+</section>
+
+<section id="shop">
+  <h2>Shop Prints & Designs</h2>
+  <p>Limited edition flash sheets and custom tattoo commissions available soon.</p>
+  <a href="mailto:your@email.com" class="btn">Book / Inquire</a>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+  <p>Instagram: @pearlsink</p>
+</section>
+
+<footer>
+  <p>© 2026 Pearls Ink. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
